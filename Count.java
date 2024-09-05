@@ -1,4 +1,4 @@
-/*  Adding up the consecutive lettere=s which is even in count
+/*  Adding up the consecutive letters which is even in count
  * 
  * Ex:
  * Input 1:
