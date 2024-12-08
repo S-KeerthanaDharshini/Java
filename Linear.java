@@ -10,10 +10,10 @@ public class Linear {
         }
         System.out.println("Enter the Key : ");
         int key=sc.nextInt();
-        int flag=0;
+        int flag=0;//Flag is used to chack whether the element is present or not
         for(int i=0;i<arr.length;i++){
-            if(arr[i] == key){
-                System.out.println("Element found at "+ (i+1) + " position");
+            if(arr[i] == key){  //Key is compared with each element with the key
+                System.out.println("Element found at "+ (i+1) + " position"); //Element found
                 flag=1;
                 break;
             }
