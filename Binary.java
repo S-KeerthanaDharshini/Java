@@ -18,12 +18,12 @@ public class Binary {
         int flag=0;
         while(l<=h){
             int mid=(l + h)/2;
-            if(arr[mid] == key){
+            if(arr[mid] == key){  //calculated mid is compared with key 
                System.out.println("Element found at "+(mid+1)+" position");
                flag=1;
                break;
             }
-            else if(arr[mid] < key){
+            else if(arr[mid] < key){   
                 l=mid+1;
             }
             else{
